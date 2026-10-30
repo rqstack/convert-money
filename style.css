@@ -17,21 +17,85 @@ body {
 }
 main {
   width: 570px;
+  border: 2px solid;
+  border-color: #2bff00cc;
   border-radius: 23px;
   background-color: rgb(211, 211, 211);
   margin: 0 auto;
   padding: 50px 27px 24px;
 }
 label {
-  color: #000000;
+  color: #777;
   font-weight: 400;
   font-size: 20px;
 }
-select {
+select,
+input {
   background: #ffff;
   border: 1px solid #18a53b;
   border-radius: 6px;
   height: 50px;
   width: 100%;
   margin-bottom: 26px;
+  appearance: none;
+  padding-left: 20px;
+  font-weight: 720;
+  font-size: 18px;
+  color: #034709;
+}
+select {
+  cursor: pointer;
+}
+
+input::-webkit-inner-spin-button,
+input::-webkit-outer-spin-button {
+  -webkit-appearance: none;
+  margin: 0;
+}
+
+button {
+  background: #000000;
+  border-radius: 10px;
+  color: #ffff;
+  height: 48px;
+  width: 100%;
+  font-weight: 700;
+  font-size: 20px;
+  border: none;
+  cursor: pointer;
+}
+button:hover {
+  opacity: 0.9;
+}
+button:active {
+  opacity: 0.6;
+}
+section {
+  border: 3px solid;
+  border-color: #379923;
+  border-radius: 8px;
+  margin-top: 36px;
+  padding: 12px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+.seta {
+  margin: 16px 0;
+}
+.box-moeda {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: 7px;
+}
+.moeda {
+  font-weight: 400;
+  font-size: 14px;
+  color: #777;
+}
+.moeda-valor {
+  color: black;
+  font-weight: 700;
+  font-size: 28px;
 }
