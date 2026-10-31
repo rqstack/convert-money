@@ -100,3 +100,49 @@ section {
   font-weight: 700;
   font-size: 28px;
 }
+
+@media (max-width: 600px) {
+  .logo-inicial {
+    width: 220px;
+    height: 220px;
+    margin-top: 10px;
+    margin-bottom: 10px;
+  }
+
+  main {
+    width: 90%;
+    padding: 30px 20px 24px;
+    margin-bottom: 20px;
+  }
+
+  label {
+    font-size: 16px;
+  }
+
+  select,
+  input {
+    height: 45px;
+    font-size: 16px;
+    padding-left: 12px;
+    margin-bottom: 20px;
+  }
+
+  button {
+    height: 45px;
+    font-size: 18px;
+  }
+
+  section {
+    margin-top: 25px;
+    padding: 12px 8px;
+  }
+
+  .moeda-valor,
+  .moeda-valor-2 {
+    font-size: 23px;
+  }
+
+  .seta {
+    margin: 12px 0;
+  }
+}
