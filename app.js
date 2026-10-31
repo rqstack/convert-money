@@ -45,5 +45,25 @@ function convertValues() {
       }).format(inputValor / bitcoinToday) + " BTC";
   }
 }
-
+function trocarImg() {
+  const moedaName = document.getElementById("moeda-name");
+  const moedaImg = document.querySelector("moeda-img");
+  if (select2.value == "USD") {
+    moedaName.innerHTML = "Dólar";
+    moedaImg.src = "./assets/img/estados-unidos (1) 1.png";
+  }
+  if (select2.value == "EUR") {
+    moedaName.innerHTML = "Euro";
+    moedaImg.src = "./assets/img/euro.png";
+  }
+  if (select2.value == "GBP") {
+    moedaName.innerHTML = "Libra";
+    moedaImg.src = "./assets/img/libra 1.png";
+  }
+  if (select2.value == "BTC") {
+    moedaName.innerHTML = "Bitcoin";
+    moedaImg.src = "./assets/img/bitcoin 1.png";
+  }
+}
+select2.addEventListener("change", trocarImg);
 convertButton.addEventListener("click", convertValues);
