@@ -94,7 +94,8 @@ section {
   font-size: 14px;
   color: #777;
 }
-.moeda-valor {
+.moeda-valor,
+.moeda-valor-2 {
   color: black;
   font-weight: 700;
   font-size: 28px;
