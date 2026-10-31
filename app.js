@@ -47,7 +47,7 @@ function convertValues() {
 }
 function trocarImg() {
   const moedaName = document.getElementById("moeda-name");
-  const moedaImg = document.querySelector("moeda-img");
+  const moedaImg = document.querySelector(".moeda-img");
   if (select2.value == "USD") {
     moedaName.innerHTML = "Dólar";
     moedaImg.src = "./assets/img/estados-unidos (1) 1.png";
@@ -64,6 +64,25 @@ function trocarImg() {
     moedaName.innerHTML = "Bitcoin";
     moedaImg.src = "./assets/img/bitcoin 1.png";
   }
+  convertValues();
 }
 select2.addEventListener("change", trocarImg);
 convertButton.addEventListener("click", convertValues);
+
+/*
+Projeto: Conversor de Moedas
+
+O projeto converte valores em reais para dólar, euro, libra e Bitcoin.
+Também atualiza automaticamente o nome e a imagem da moeda selecionada.
+
+Conceitos praticados:
+- Variáveis e constantes
+- Funções
+- Condicionais (if)
+- Manipulação do DOM
+- Eventos com addEventListener
+- Formatação de valores com Intl.NumberFormat
+- Conversão de valores numéricos
+
+As cotações utilizadas são fixas e servem apenas para fins de estudo.
+*/
