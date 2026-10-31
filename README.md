@@ -14,6 +14,10 @@
   <img src="https://img.shields.io/badge/JavaScript-F7DF1E?style=for-the-badge&logo=javascript&logoColor=black" />
 </p>
 
+<p align="center">
+  🔗 <a href="https://rqstack.github.io/convert-money/"><b>Acesse o projeto online</b></a>
+</p>
+
 ---
 
 ## 📌 Sobre o projeto
@@ -64,9 +68,13 @@ convert-money/
 
 ## 🚀 Como rodar
 
+Acesse direto pelo navegador: **https://rqstack.github.io/convert-money/**
+
+Ou rode localmente:
+
 1. Clone o repositório:
    ```bash
-   git clone <url-do-repositorio>
+   git clone https://github.com/rqstack/convert-money.git
    ```
 2. Abra o arquivo `index.html` no navegador.
 
