@@ -7,10 +7,10 @@ function convertValues() {
   const moedaValor1 = document.querySelector(".moeda-valor");
   const moedaValor2 = document.querySelector(".moeda-valor-2");
 
-  const dolarToday = 5.42;
-  const euroToday = 6.05;
-  const libraToday = 7.26;
-  const bitcoinToday = 415570.24;
+  const dolarToday = 5.78;
+  const euroToday = 6.37;
+  const libraToday = 7.62;
+  const bitcoinToday = 425253.00;
 
   moedaValor1.innerHTML = new Intl.NumberFormat("pt-BR", {
     style: "currency",
